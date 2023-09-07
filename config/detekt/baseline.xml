@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>CyclomaticComplexMethod:Solution.kt$Solution1$private fun generateSpiralMatrix(n: Int): List&lt;MutableList&lt;Int?&gt;&gt;</ID>
+    <ID>ExplicitItLambdaParameter:Solution.kt$Solution2${ acc, it -&gt; acc * it }</ID>
+    <ID>FunctionOnlyReturningConstant:Challenge.kt$AdvancedLRUCache$private fun getSystemTimeForExpiry()</ID>
+    <ID>FunctionOnlyReturningConstant:Challenge.kt$private fun Int.getDigitAt(index: Int): Char</ID>
+    <ID>FunctionOnlyReturningConstant:Solution.kt$Solution1.AdvancedLRUCache$private fun getSystemTimeForExpiry()</ID>
+    <ID>InvalidPackageDeclaration:Challenge.kt$package com.igorwojda.list.listchunk</ID>
+    <ID>InvalidPackageDeclaration:Solution.kt$package com.igorwojda.list.listchunk</ID>
+    <ID>IteratorNotThrowingNoSuchElementException:Solution.kt$Solution1.DoublyLinkedList$&lt;no name provided&gt; : Iterator</ID>
+    <ID>MatchingDeclarationName:Challenge.kt$AdvancedLRUCache</ID>
+    <ID>MatchingDeclarationName:Challenge.kt$LRUCache</ID>
+    <ID>MatchingDeclarationName:Solution.kt$Solution1</ID>
+    <ID>MaxLineLength:Solution.kt$Solution1$// current total less than required total but we reach the end, need this or else we'll be in an infinite loop</ID>
+    <ID>MaxLineLength:Solution.kt$Solution1.Queue$/* Queue can be used as helper class to implement breath first traversal. This is not the most optimal queue implementation, however it's enough for this task. Check "Queue challenge" solution for more details and more efficient queue implementation. */</ID>
+    <ID>MaxLineLength:Solution.kt$Solution1.Stack$/* Stack can be used as helper class to implement depth first traversal. This is not the most optimal stack implementation, however it's enough for this task. Check "Stack challenge" solution for more details and more efficient stack implementation. */</ID>
+    <ID>NestedBlockDepth:Solution.kt$Solution1$fun medianOfSortedLists(list1: List&lt;Int&gt;, list2: List&lt;Int&gt;): Double</ID>
+    <ID>NestedBlockDepth:Solution.kt$Solution2$private fun isTolerantPalindrome(str: String, characterRemoved: Boolean = false): Boolean</ID>
+    <ID>ReturnCount:Challenge.kt$BinarySearchTree$fun add(element: E)</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$fun hasAverage(list: List&lt;Int&gt;, average: Double): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$fun medianOfSortedLists(list1: List&lt;Int&gt;, list2: List&lt;Int&gt;): Double</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$fun sumZero(list: List&lt;Int&gt;): Pair&lt;Int, Int&gt;?</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$private fun isSubstring(str: String, subStr: String): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$private fun isTolerantPalindrome(str: String): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution1$private fun isValidSearchBinaryTree(node: Node&lt;Int&gt;, min: Int? = null, max: Int? = null): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution1.BinarySearchTree$fun add(element: E)</ID>
+    <ID>ReturnCount:Solution.kt$Solution1.MaxBinaryHeap$fun removeMax(): E?</ID>
+    <ID>ReturnCount:Solution.kt$Solution1.SinglyLinkedList$fun getAt(index: Int): Node&lt;E&gt;?</ID>
+    <ID>ReturnCount:Solution.kt$Solution2$private fun equalDigitFrequency(i1: Int, i2: Int): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution2$private fun isSubstring(str: String, subStr: String): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution2$private fun isTolerantPalindrome(str: String, characterRemoved: Boolean = false): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution2$private fun squareEquals(list: List&lt;Int&gt;, squared: List&lt;Int&gt;): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution2$private fun surroundedLetter(str: String): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution2.BinarySearchTree$fun add(element: E)</ID>
+    <ID>ReturnCount:Solution.kt$Solution3$private fun isPalindrome(str: String): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution3$private fun isTolerantPalindrome(str: String, characterRemoved: Boolean = false): Boolean</ID>
+    <ID>ReturnCount:Solution.kt$Solution4$private fun maxOccurringChar(str: String): Char?</ID>
+    <ID>ReturnCount:Solution.kt$fun helper(first: String, second: String, firstPointer1: Int = 0, secondPointer2: Int = 0): Boolean</ID>
+    <ID>UnusedParameter:Challenge.kt$AdvancedLRUCache$expiryTime: Long</ID>
+    <ID>UnusedParameter:Challenge.kt$AdvancedLRUCache$key: String</ID>
+    <ID>UnusedParameter:Challenge.kt$AdvancedLRUCache$priority: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$AdvancedLRUCache$value: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$BinarySearchTree$element: E</ID>
+    <ID>UnusedParameter:Challenge.kt$LRUCache$key: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$LRUCache$value: String</ID>
+    <ID>UnusedParameter:Challenge.kt$MaxBinaryHeap$element: E</ID>
+    <ID>UnusedParameter:Challenge.kt$MaxBinaryHeap$index: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$Node$e: E</ID>
+    <ID>UnusedParameter:Challenge.kt$Queue$element: E</ID>
+    <ID>UnusedParameter:Challenge.kt$Stack$element: E</ID>
+    <ID>UnusedParameter:Challenge.kt$amount: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$average: Double</ID>
+    <ID>UnusedParameter:Challenge.kt$base: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$binaryTree: BinarySearchTree&lt;Char&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$callback: (Int) -&gt; Boolean</ID>
+    <ID>UnusedParameter:Challenge.kt$coins: List&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$count: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$element: Char</ID>
+    <ID>UnusedParameter:Challenge.kt$endIndex: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$exponent: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$i1: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$i2: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$i: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$image: List&lt;List&lt;Int&gt;&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$index: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$l1: ListNode?</ID>
+    <ID>UnusedParameter:Challenge.kt$l2: ListNode?</ID>
+    <ID>UnusedParameter:Challenge.kt$left: Int = 0</ID>
+    <ID>UnusedParameter:Challenge.kt$left: MutableList&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list1: List&lt;String&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list2: List&lt;String&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: List&lt;*&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: List&lt;Char&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: List&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: List&lt;String&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: MutableList&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$list: SinglyLinkedList&lt;Char&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$methodCache: MutableList&lt;MethodCache&gt; = mutableListOf()</ID>
+    <ID>UnusedParameter:Challenge.kt$n: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$node: Node&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$numElements: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$q1: Queue&lt;*&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$q2: Queue&lt;*&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$range1: IntRange</ID>
+    <ID>UnusedParameter:Challenge.kt$range2: IntRange</ID>
+    <ID>UnusedParameter:Challenge.kt$right: Int = list.lastIndex</ID>
+    <ID>UnusedParameter:Challenge.kt$right: MutableList&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$shift: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$size: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$squared: List&lt;Int&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$stations: List&lt;String&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$step: Int = 1</ID>
+    <ID>UnusedParameter:Challenge.kt$str1: String</ID>
+    <ID>UnusedParameter:Challenge.kt$str2: String</ID>
+    <ID>UnusedParameter:Challenge.kt$str: String</ID>
+    <ID>UnusedParameter:Challenge.kt$subStr: String</ID>
+    <ID>UnusedParameter:Challenge.kt$sum: Int</ID>
+    <ID>UnusedParameter:Challenge.kt$tree: BinarySearchTree&lt;Char&gt;</ID>
+    <ID>UnusedParameter:Challenge.kt$tree: Node</ID>
+    <ID>UnusedParameter:Challenge.kt$vararg strings: String</ID>
+    <ID>UnusedParameter:Solution.kt$Solution1$characterRemoved: Boolean = false</ID>
+    <ID>UnusedPrivateClass:Challenge.kt$DoublyLinkedList&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Challenge.kt$SinglyLinkedList&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Challenge.kt$Stack&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Challenge.kt$Test</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution1$BinarySearchTree&lt;E : Comparable&lt;E&gt;&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution1$MaxBinaryHeap&lt;E : Comparable&lt;E&gt;&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution1$Queue&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution1$Stack&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution2$Queue&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution2$Stack&lt;E&gt;</ID>
+    <ID>UnusedPrivateClass:Solution.kt$Solution3$Queue&lt;E&gt;</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$AdvancedLRUCache$private fun getSystemTimeForExpiry()</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$MaxBinaryHeap$private fun &lt;T&gt; MutableList&lt;T&gt;.swap(index1: Int, index2: Int)</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$MaxBinaryHeap$private fun getLeftChildIndex(index: Int): Int</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$MaxBinaryHeap$private fun getParentIndex(index: Int): Int</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$MaxBinaryHeap$private fun getRightChildIndex(index: Int): Int</ID>
+    <ID>UnusedPrivateMember:Challenge.kt$private fun &lt;T&gt; MutableList&lt;T&gt;.swap(index1: Int, index2: Int)</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun binarySearch(list: List&lt;Char&gt;, element: Char): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun bubbleSort(list: List&lt;Int&gt;): List&lt;Number&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun capitalizeSentence(str: String): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun chunk(list: List&lt;Int&gt;, size: Int): List&lt;List&lt;Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun circularCheck(list: SinglyLinkedList&lt;Char&gt;): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun containsRange(range1: IntRange, range2: IntRange)</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun countUniqueValues(list: List&lt;Int&gt;): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun countUpAndDown(n: Int): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun decapitalizeConst(str: String): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun encodeCaesarCipher(str: String, shift: Int): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun equalDigitFrequency(i1: Int, i2: Int): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun findAllRectangles(image: List&lt;List&lt;Int&gt;&gt;): MutableList&lt;List&lt;Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun findRectangle(image: List&lt;List&lt;Int&gt;&gt;): List&lt;Int&gt;?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun fizzBuzz(n: Int): List&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun formatTrainRoute(stations: List&lt;String&gt;): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun fromLast(list: SinglyLinkedList&lt;Char&gt;, endIndex: Int): Node&lt;Char&gt;?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun generatePyramid(n: Int): List&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun generateSpiralMatrix(n: Int): List&lt;MutableList&lt;Int?&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun generateSteps(n: Int)</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun getAllPairs(n: Int): List&lt;Pair&lt;Int, Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun getCoins(amount: Int, coins: List&lt;Int&gt;): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun getIndex(list: List&lt;String&gt;, str: String): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun getSubtraction(list1: List&lt;String&gt;, list2: List&lt;String&gt;): List&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun hasRepeatedChar(str: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun insertionSort(list: MutableList&lt;Int&gt;): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun isAnagram(str1: String, str2: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun isPermutationPalindrome(str: String, characterRemoved: Boolean = false): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun largestElements(list: List&lt;Int&gt;, count: Int): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun levelWidth(tree: Node): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun longestWord(str: String): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun maxOccurringChar(str: String): Char?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun maxSubListSum(list: List&lt;Int&gt;, numElements: Int): Int?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun radixSort(list: List&lt;Int&gt;): List&lt;Number&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun reverseInt(i: Int): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun selectionSort(list: List&lt;Int&gt;): List&lt;Number&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun smallestElements(list: List&lt;Int&gt;, count: Int): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun squareEquals(list: List&lt;Int&gt;, squared: List&lt;Int&gt;): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun surroundedLetter(str: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseBreathFirst(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstInOrder(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstInOrderReversed(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstPostOrder(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstPostOrderReversed(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstPreOrder(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution1$private fun traverseDepthFirstPreOrderReversed(tree: BinarySearchTree&lt;Char&gt;): List&lt;Char&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun capitalizeSentence(str: String): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun chunk(list: List&lt;Int&gt;, size: Int): List&lt;List&lt;Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun countUniqueValues(list: List&lt;Int&gt;): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun countUpAndDown(n: Int): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun decapitalizeConst(str: String): String?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun encodeCaesarCipher(str: String, shift: Int): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun equalDigitFrequency(i1: Int, i2: Int): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun findRectangle(image: List&lt;List&lt;Int&gt;&gt;): List&lt;Int&gt;?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun formatTrainRoute(stations: List&lt;String&gt;): String</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun generatePyramid(n: Int): List&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun generateSteps(n: Int): MutableList&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun getAllPairs(n: Int): List&lt;Pair&lt;Int, Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun hasRepeatedChar(str: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun isAnagram(str1: String, str2: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun isPermutationPalindrome(str: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun levelWidth(tree: Node): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun maxOccurringChar(str: String): Char?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun maxSubListSum(list: List&lt;Int&gt;, numElements: Int): Int?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun squareEquals(list: List&lt;Int&gt;, squared: List&lt;Int&gt;): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution2$private fun surroundedLetter(str: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun chunk(list: List&lt;Int&gt;, size: Int): List&lt;List&lt;Int&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun countUniqueValues(list: List&lt;Int&gt;): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun generatePyramid(n: Int): MutableList&lt;String&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun isAnagram(str1: String, str2: String): Boolean</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun levelWidth(tree: Node): List&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun maxOccurringChar(str: String): Char?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution3$private fun maxSubListSum(list: List&lt;Int&gt;, numElements: Int): Int?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution4$private fun countUniqueValues(list: List&lt;Int&gt;): Int</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution4$private fun maxOccurringChar(str: String): Char?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution4$private fun maxSubListSum(list: List&lt;Int&gt;, numElements: Int): Int?</ID>
+    <ID>UnusedPrivateMember:Solution.kt$Solution5$private fun maxSubListSum(list: List&lt;Int&gt;, numElements: Int)</ID>
+    <ID>UnusedPrivateProperty:Challenge.kt$AdvancedLRUCache$private val capacity: Int</ID>
+    <ID>UnusedPrivateProperty:Challenge.kt$LRUCache$private val capacity: Int</ID>
+    <ID>UnusedPrivateProperty:Solution.kt$Solution2$it</ID>
+    <ID>UnusedPrivateProperty:Solution.kt$Solution3.Queue$val a = 2</ID>
+  </CurrentIssues>
+</SmellBaseline>

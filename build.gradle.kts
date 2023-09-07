@@ -4,6 +4,7 @@ plugins {
     kotlin("jvm") version "1.8.10"
     id("com.adarshr.test-logger") version "3.2.0"
     id("com.diffplug.spotless") version "6.21.0"
+    id("io.gitlab.arturbosch.detekt") version "1.23.1"
 }
 
 repositories {
@@ -24,6 +25,13 @@ sourceSets {
     }
 }
 
+detekt {
+    buildUponDefaultConfig = true // preconfigure defaults
+    allRules = false // activate all available (even unstable) rules.
+    config.setFrom("$projectDir/config/detekt/detekt.yml") // point to your custom config defining rules to run, overwriting default behavior
+    baseline = file("$projectDir/config/detekt/baseline.xml") // a way of suppressing issues before introducing detekt
+}
+
 tasks.test {
     useJUnitPlatform()
 
@@ -35,8 +43,15 @@ tasks.test {
     }
 }
 
+tasks.withType<io.gitlab.arturbosch.detekt.Detekt>().configureEach {
+    jvmTarget = "17"
+}
+tasks.withType<io.gitlab.arturbosch.detekt.DetektCreateBaselineTask>().configureEach {
+    jvmTarget = "17"
+}
+
 kotlin {
-    jvmToolchain(19)
+    jvmToolchain(17)
 }
 
 spotless {
